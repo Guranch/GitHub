@@ -35,13 +35,18 @@ body {
 }
 
 /* header */
-
+header {
+  padding: 57px 0;
+}
 .logo {
   font-family: "Revalia", cursive;
   font-size: 48px;
   line-height: 1.25;
   color: var(--accent-color);
+  margin-right: 398px;
+  font-family: "Revalia", cursive;
 }
+
 
 /* nav */
 
@@ -52,7 +57,12 @@ body {
   letter-spacing: 0.1em;
   color: #000000;
 }
-
+.nav-menu > .list {
+  align-items: center;
+}
+.nav-menu  .item:not(:last-child) {
+  margin-right: 42px;
+}
 .link.active {
   color: var(--accent-color);
 }
@@ -63,6 +73,14 @@ body {
 .hero {
   background-color: var(--second-bg);
 }
+.pack{
+  align-content: center;
+  padding-top: 162px;
+  padding-bottom: 146px;
+}
+.content{
+  margin-left: 130px;
+}
 
 /* title */
 
@@ -70,9 +88,8 @@ body {
   color: #000000;
 }
 
-.hero > .title {
+.hero .title {
   margin-bottom: 60px;
-
   font-weight: 500;
   font-size: 48px;
   line-height: 1.65;
@@ -80,19 +97,17 @@ body {
 
 /* text */
 
-.hero > .text{
+.hero .text{
   margin-bottom: 60px;
+  max-width: 540px;
 }
 
 /* button */
 
-.hero .button {
+.button {
   padding: 25px 41px;
-
   border: none;
-
   color: #ffffff;
-  text-transform: uppercase;
   background-color: var(--accent-color);
 }
 
@@ -126,10 +141,6 @@ body {
 /*  40 projects */
 
 .fortypro {
-  width: 1920px;
-  height: 250px;
-  left: 0px;
-  top: 1059px;
   padding-top: 100px;
   padding-bottom: 100px;
   padding-left: 405px;
@@ -139,12 +150,35 @@ body {
   display: inline-block;
   color: #ffffff;
 }
+.projects > .item > p {
+  margin-left: 20px;
+}
+.projects  .item:not(:last-child) {
+  margin-right: 42px;
+}
 
 .projects .headline{
   font-weight: 500;
   font-size: 21px;
 }
-
+/*skills*/
+.skills {
+  padding-top: 102px;
+  padding-bottom: 101px;
+}
+.pack-skills{
+  max-width: 1150px;
+}
+.content-skills{
+  margin-right: 150px;
+}
+.H{
+  margin-bottom: 50px;
+  margin-top: 102px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.2;
+}
 /* pictures */
 
 .pictures img{
@@ -160,10 +194,15 @@ body {
 }
 .work{
   margin-top: 100px;
+  background-color: var(--second-bg);
 }
 .head{
   margin-bottom: 50px;
   color: #000000;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.2;
+  text-align: center;
 }
 .video{
   margin-bottom: 100px;
@@ -171,11 +210,14 @@ body {
   margin-right: 405px;
 }
 /*microsoft*/
-.windows> .block{
+.windows> .item{
   list-style: none;
 }
 .block{
-  display: inline-block;
+  display: block;
+}
+.microsoft .item:not(:last-child){
+  margin-right: 30px;
 }
 .microsoft{
   padding-top: 100px;
@@ -185,7 +227,16 @@ body {
 }
 /*contacts*/
 .contacts{
-  padding: 120px;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  background-color: var(--second-bg);
+}
+.height{
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.2;
+  text-align: center;
 }
 .dream{
   max-width: 540px;
@@ -204,6 +255,10 @@ body {
   padding: 20px;
 }
 /*footer*/
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .name{
   background-color: #34547a;
 }
@@ -216,9 +271,11 @@ body {
 }
 .f,.a{
   color: #ffffff;
-  margin-top: 50px;
-  margin-bottom: 50px;
   margin-left: auto;
+}
+.a{
+  font-size: 13px;
+  line-height: 1.6;
 }
 
 
