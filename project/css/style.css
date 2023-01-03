@@ -1,0 +1,228 @@
+:root {
+  --accent-color: #34547a;
+  --text-color: #727272;
+  --second-bg: #eeeff1;
+}
+
+/* reset */
+
+h1,h2,h3{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul, p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul{
+  padding-left: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.63;
+  color: var(--text-color);
+}
+
+/* header */
+
+.logo {
+  font-family: "Revalia", cursive;
+  font-size: 48px;
+  line-height: 1.25;
+  color: var(--accent-color);
+}
+
+/* nav */
+
+.nav-menu .link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.link.active {
+  color: var(--accent-color);
+}
+/* main */
+
+/* hero */
+
+.hero {
+  background-color: var(--second-bg);
+}
+
+/* title */
+
+.title {
+  color: #000000;
+}
+
+.hero > .title {
+  margin-bottom: 60px;
+
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1.65;
+}
+
+/* text */
+
+.hero > .text{
+  margin-bottom: 60px;
+}
+
+/* button */
+
+.hero .button {
+  padding: 25px 41px;
+
+  border: none;
+
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: var(--accent-color);
+}
+
+/* about myself */
+
+.about{
+  padding-top: 119px;
+  padding-bottom: 100px;
+}
+
+.text-container{
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about  .title {
+  margin-bottom: 50px;
+
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.1875;
+  text-align: center;
+}
+.about  p {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+
+/*  40 projects */
+
+.fortypro {
+  width: 1920px;
+  height: 250px;
+  left: 0px;
+  top: 1059px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 405px;
+  padding-right: 424px;
+}
+.projects > .item {
+  display: inline-block;
+  color: #ffffff;
+}
+
+.projects .headline{
+  font-weight: 500;
+  font-size: 21px;
+}
+
+/* pictures */
+
+.pictures img{
+  display: block;
+}
+/*work*/
+.box{
+  max-width: 540px;
+  margin-bottom: 57px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.work{
+  margin-top: 100px;
+}
+.head{
+  margin-bottom: 50px;
+  color: #000000;
+}
+.video{
+  margin-bottom: 100px;
+  margin-left: 405px;
+  margin-right: 405px;
+}
+/*microsoft*/
+.windows> .block{
+  list-style: none;
+}
+.block{
+  display: inline-block;
+}
+.microsoft{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 405px;
+  padding-right: 405px;
+}
+/*contacts*/
+.contacts{
+  padding: 120px;
+}
+.dream{
+  max-width: 540px;
+  margin-bottom: 65px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.send{
+  margin-top: 70px;
+  color: #ffffff;
+  background-color: #34547a;
+  max-width: 190px;
+  margin-left: 885px;
+  margin-right: 885px;
+  padding: 20px;
+}
+/*footer*/
+.name{
+  background-color: #34547a;
+}
+.vk{
+  display: inline-block;
+  font-weight: 44px;
+}
+.f{
+  margin-top: 20px;
+}
+.f,.a{
+  color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+}
+
+
+
+
+
+
